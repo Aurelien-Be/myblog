@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}
+Search 
+{%endblock%}
+
+{% block css_files%}
+   <link rel="stylesheet" href="{% static "blog/post.css" %}" />
+   <link rel="stylesheet" href="{% static "blog/searcharticle.css" %}" />
+{% endblock%}
+
+{% block content%}
+<section id="postsfound"> 
+  
+  <h2>Here is what we found :</h2>
+<ul>
+
+  {% for post in object_list %}
+  
+    {% include "blog/includes/posts.html" %}
+
+  {%empty%}
+  <p>Nothing found ! Try another search.</p>
+  
+  {% endfor%}
+</ul>
+</section>
+
+{% endblock%}

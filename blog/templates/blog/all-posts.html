@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}
+All My Posts 
+{%endblock%}
+
+{% block css_files%}
+   <link rel="stylesheet" href="{% static "blog/post.css" %}" />
+   <link rel="stylesheet" href="{% static "blog/all-posts.css" %}" />
+{% endblock%}
+
+{% block content%}
+<section id="all-posts"> 
+<h2>My collected posts</h2>
+ 
+  <ul>
+     {% for post in all_posts %}
+         {% include "blog/includes/posts.html" %}
+     {% endfor %}
+   </ul>
+     
+</section>
+
+<section id="search">
+   <h3>Search an article :</h3>
+   <form action="{% url 'search-article' %}" method="get">
+     <input name="q" type="text" placeholder="Search...">
+   </form>
+ </section>
+ 
+{% endblock %}
