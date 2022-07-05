@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load bbcode_tags %}
 
 
 {% block title %}
@@ -52,7 +53,7 @@
   </section>
 
   <main>
-  {{post.content|linebreaks}}
+  {{post.content|safe|bbcode}}
 
   </main>
     <section id="comments">
