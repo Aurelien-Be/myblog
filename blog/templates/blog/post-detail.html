@@ -62,7 +62,7 @@
       <li>
         <h2>{{comments.user_name}}</h2>
         <p>{{comments.created}}</p>
-        <p>{{comments.body|linebreaks}}</p>
+        <p>{{comments.body|safe|bbcode}}</p>
       </li>
       {%endfor%}
     </ul>
