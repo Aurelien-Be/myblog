@@ -10,3 +10,7 @@ class CommentForm(forms.ModelForm):
         "email" : "Your Email",
         "body": "Your Comment"
         }
+        widgets = {            
+        'body': forms.Textarea(
+         attrs={'placeholder': 'Enter your comment here (you can use bbcode)'}),
+        }
