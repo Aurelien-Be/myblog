@@ -4,6 +4,8 @@ from django.urls import reverse #allows to construct urls automatically by just 
 from django.views.generic import ListView
 from django.views import View 
 from django.db.models import Q 
+from django.utils.translation import gettext_lazy as _ #to translate strings 
+
 
 from .models import Post
 from .forms import CommentForm

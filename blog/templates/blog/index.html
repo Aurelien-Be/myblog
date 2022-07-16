@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+{%load i18n%}
 
 
 {% block title %}
@@ -18,15 +19,15 @@ My Blog
   <header>
     <img src="{% static "blog/images/profilpic.jpg"%}" alt="Aurelien - The Author Of This Blog"/>
     <h2>
-      <span><span>AURELIEN'S</span></span>
-      <span><span>BLOG</span></span>
+      <span><span>{%trans "AURELIEN'S" %}</span></span>
+      <span><span>{% trans "BLOG" %}</span></span>
     </h2>
   </header>
-  <p>Hi, I am Aurélien and I like to blog about tech, language learning, Russia.. ! </p>
+  <p>{% trans "Hi, I am Aurélien and I like to blog about tech, language learning, Russia.. !" %} </p>
 </section>
 
 <section id="latest-posts">
-  <h2>My Latest Thoughts</h2>
+  <h2>{%trans "My Latest Thoughts" %}</h2>
 
   <ul>
     {% for post in posts %}
@@ -36,7 +37,7 @@ My Blog
 </section>
 
 <section id="search">
-  <h3>Search an article :</h3>
+  <h3>{% trans "Search an article :"%}</h3>
   <form action="{% url 'search-article' %}" method="get">
     <input name="q" type="text" placeholder="Search...">
   </form>
@@ -44,18 +45,18 @@ My Blog
 
 <section id="about">
   <img src="{% static "blog/images/logo_transparent.png"%}" alt="logo"/>
-  <h2>What I Do</h2>
-  <p>I love programming, I enjoy exploring new technologies, and learn languages (mainly russian language, but also italian).</p>
-  <p>My goal is to keep learning as a developer and share my experience</p>
-  <a href="https://abeveraggi.pythonanywhere.com/contact.html">Contact me (first website)</a>
-  <h2 id="social media">Follow me</h2>
+  <h2>{%trans "What I Do"%}</h2>
+  <p>{%trans "I love programming, I enjoy exploring new technologies, and learn languages (mainly russian language, but also italian)." %}</p>
+  <p>{%trans "My goal is to keep learning as a developer and share my experience" %}</p>
+  <a href="https://abeveraggi.pythonanywhere.com/contact.html">{%trans "Contact me (first website)" %}</a>
+  <h2 id="social media">{%trans "Follow me" %}</h2>
   <a href="https://www.linkedin.com/in/beveraggi/" title="" class="fa-icon">
     <i class="fa fa-linkedin fa-2x"></i>
   </a>
    <a href="https://github.com/Aurelien-Be" title="" class="fa-icon">
     <i class="fa fa-github fa-2x"></i>
    </a>
-   <h2 id="techs"> Technologies I used</h2>
+   <h2 id="techs"> {%trans "Technologies I used" %}</h2>
    <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg">
    <a href="https://en.wikipedia.org/wiki/Django_(web_framework)"><img src="https://static.djangoproject.com/img/logos/django-logo-negative.svg"></a>
    <a href="https://aws.amazon.com/what-is-cloud-computing"><img src="https://d0.awsstatic.com/logos/powered-by-aws-white.png" alt="Powered by AWS Cloud Computing"></a>

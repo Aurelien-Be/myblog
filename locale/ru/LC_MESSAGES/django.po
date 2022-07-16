@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-16 12:52+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\blog\templates\blog\index.html:22
+msgid "AURELIEN'S"
+msgstr "БЛОГ"
+
+#: .\blog\templates\blog\index.html:23
+msgid "BLOG"
+msgstr "ОРЕЛЬЕНА"
+
+#: .\blog\templates\blog\index.html:26
+msgid ""
+"Hi, I am Aurélien and I like to blog about tech, language learning, "
+"Russia.. !"
+msgstr "Привет, я Орельен, и мне нравится вести блог о технологиях, изучении языков, России .. !"
+
+#: .\blog\templates\blog\index.html:30
+msgid "My Latest Thoughts"
+msgstr "Мои последние размышления"
+
+#: .\blog\templates\blog\index.html:40
+msgid "Search an article :"
+msgstr "Найти статью:"
+
+#: .\blog\templates\blog\index.html:48
+msgid "What I Do"
+msgstr "Чем занимаюсь я"
+
+#: .\blog\templates\blog\index.html:49
+msgid ""
+"I love programming, I enjoy exploring new technologies, and learn languages "
+"(mainly russian language, but also italian)."
+msgstr "Я люблю программировать, мне нравится исследовать новые технологии и изучать языки (в основном русский, но также и итальянский)"
+
+#: .\blog\templates\blog\index.html:50
+msgid "My goal is to keep learning as a developer and share my experience"
+msgstr "Моя цель - продолжать учиться как разработчик и делиться своим опытом."
+
+#: .\blog\templates\blog\index.html:51
+msgid "Contact me (first website)"
+msgstr "свяжи́сь со мной (первый веб-сайт)"
+
+#: .\blog\templates\blog\index.html:52
+msgid "Follow me"
+msgstr "Следуй за мной"
+
+#: .\blog\templates\blog\index.html:59
+msgid "Technologies I used"
+msgstr "Технологии, которые я использовал"
+
+#: .\templates\base.html:17
+msgid "Aurélien's Blog"
+msgstr "Блог Орельена"

@@ -1,4 +1,5 @@
 {% load static %}
+{%load i18n%}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +14,7 @@
     <meta property="og:image" content="{{object.image_field.url}}">
     <meta name="twitter:card" value="summary">
     {% elif request.path == '/' %}
-    <title>Aurélien's Blog</title>
+    <title>{% trans "Aurélien's Blog" %}</title>
     <meta name="Aurelien's blog" content="Welcome to my blog.">
     <meta property="og:image" content="https://blogaurelien.s3.amazonaws.com/static/blog/images/profilpic.jpg">
     {%endif%}

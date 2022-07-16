@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-16 12:52+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\blog\templates\blog\index.html:22
+msgid "AURELIEN'S"
+msgstr ""
+
+#: .\blog\templates\blog\index.html:23
+msgid "BLOG"
+msgstr ""
+
+#: .\blog\templates\blog\index.html:26
+msgid ""
+"Hi, I am Aurélien and I like to blog about tech, language learning, "
+"Russia.. !"
+msgstr ""
+
+#: .\blog\templates\blog\index.html:30
+msgid "My Latest Thoughts"
+msgstr ""
+
+#: .\blog\templates\blog\index.html:40
+msgid "Search an article :"
+msgstr ""
+
+#: .\blog\templates\blog\index.html:48
+msgid "What I Do"
+msgstr ""
+
+#: .\blog\templates\blog\index.html:49
+msgid ""
+"I love programming, I enjoy exploring new technologies, and learn languages "
+"(mainly russian language, but also italian)."
+msgstr ""
+
+#: .\blog\templates\blog\index.html:50
+msgid "My goal is to keep learning as a developer and share my experience"
+msgstr ""
+
+#: .\blog\templates\blog\index.html:51
+msgid "Contact me (first website)"
+msgstr ""
+
+#: .\blog\templates\blog\index.html:52
+msgid "Follow me"
+msgstr ""
+
+#: .\blog\templates\blog\index.html:59
+msgid "Technologies I used"
+msgstr ""
+
+#: .\templates\base.html:17
+msgid "Aurélien's Blog"
+msgstr "Le blog d'Aurélien"
