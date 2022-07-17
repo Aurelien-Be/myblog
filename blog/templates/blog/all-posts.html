@@ -3,7 +3,7 @@
 
 
 {% block title %}
-All My Posts 
+{% trans "All My Posts"%} 
 {%endblock%}
 
 {% block css_files%}
@@ -13,7 +13,7 @@ All My Posts
 
 {% block content%}
 <section id="all-posts"> 
-<h2>My collected posts</h2>
+<h2>{% trans "My collected posts"%}</h2>
  
   <ul>
      {% for post in all_posts %}
@@ -24,7 +24,7 @@ All My Posts
 </section>
 
 <section id="search">
-   <h3>Search an article :</h3>
+   <h3>{% trans "Search an article :"%}</h3>
    <form action="{% url 'search-article' %}" method="get">
      <input name="q" type="text" placeholder="Search...">
    </form>
