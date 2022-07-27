@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-16 12:52+0300\n"
+"POT-Creation-Date: 2022-07-27 17:07+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,54 +18,122 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+#: .\blog\templates\blog\all-posts.html:8
+#, fuzzy
+#| msgid "All posts"
+msgid "All my posts"
+msgstr "Tous les posts"
+
+#: .\blog\templates\blog\all-posts.html:18
+msgid "My collected posts"
+msgstr "Tous les posts"
+
+#: .\blog\templates\blog\all-posts.html:29 .\blog\templates\blog\index.html:40
+msgid "Search an article :"
+msgstr "Chercher un article:"
+
 #: .\blog\templates\blog\index.html:22
 msgid "AURELIEN'S"
-msgstr ""
+msgstr "BLOG"
 
 #: .\blog\templates\blog\index.html:23
 msgid "BLOG"
-msgstr ""
+msgstr "D'AURELIEN"
 
 #: .\blog\templates\blog\index.html:26
 msgid ""
 "Hi, I am Aurélien and I like to blog about tech, language learning, "
 "Russia.. !"
 msgstr ""
+"Salut, je m'appelle Aurélien et je blogue à propos de tech, d'apprentissage "
+"de langues,de la Russie.. !"
 
 #: .\blog\templates\blog\index.html:30
 msgid "My Latest Thoughts"
-msgstr ""
-
-#: .\blog\templates\blog\index.html:40
-msgid "Search an article :"
-msgstr ""
+msgstr "Mes dernières pensées"
 
 #: .\blog\templates\blog\index.html:48
 msgid "What I Do"
-msgstr ""
+msgstr "Ce que je fais"
 
 #: .\blog\templates\blog\index.html:49
 msgid ""
 "I love programming, I enjoy exploring new technologies, and learn languages "
 "(mainly russian language, but also italian)."
 msgstr ""
+"J'aime programmer et apprendre des langues étrangères(principelement le "
+"russe, mais aussi l'italien)."
 
 #: .\blog\templates\blog\index.html:50
 msgid "My goal is to keep learning as a developer and share my experience"
 msgstr ""
+"Mon but est de continuer à apprendre la programmation et notamment de "
+"partager mon expérience"
 
 #: .\blog\templates\blog\index.html:51
 msgid "Contact me (first website)"
-msgstr ""
+msgstr "Contactez-moi (mon premier site)"
 
 #: .\blog\templates\blog\index.html:52
 msgid "Follow me"
-msgstr ""
+msgstr "Suivez-moi"
 
 #: .\blog\templates\blog\index.html:59
 msgid "Technologies I used"
+msgstr "Les technologies utilisées"
+
+#: .\blog\templates\blog\searcharticle.html:7
+msgid "Search"
+msgstr "Chercher"
+
+#: .\blog\templates\blog\searcharticle.html:18
+msgid "Here is what we found :"
+msgstr "Voilà ce que nous avons trouvé:"
+
+#: .\blog\templates\blog\searcharticle.html:26
+msgid "Nothing found ! Try another search."
+msgstr "Rien du tout ! Essayez une autre recherche."
+
+#: .\blog\templates\blog\stored-posts.html:6
+msgid "My stored post"
+msgstr "Mes posts sauvegardés"
+
+#: .\blog\templates\blog\stored-posts.html:17
+msgid "You don't have any saved post"
+msgstr "Vous n'avez aucun post"
+
+#: .\my_site\settings.py:119
+msgid "English"
 msgstr ""
 
-#: .\templates\base.html:17
+#: .\my_site\settings.py:120
+msgid "French"
+msgstr ""
+
+#: .\my_site\settings.py:121
+msgid "Russian"
+msgstr ""
+
+#: .\my_site\settings.py:122
+msgid "italian"
+msgstr ""
+
+#: .\templates\404.html:8
+msgid "We're sorry, "
+msgstr "Nous sommes désolés,"
+
+#: .\templates\404.html:9
+msgid "but we couldn't find that page."
+msgstr "mais nous n'avons pas pu trouver cette page"
+
+#: .\templates\base.html:17 .\templates\base.html:33
 msgid "Aurélien's Blog"
 msgstr "Le blog d'Aurélien"
+
+#: .\templates\base.html:35
+msgid "Stored posts"
+msgstr "Posts sauvegardés"
+
+#: .\templates\base.html:36
+msgid "All posts"
+msgstr "Tous les posts"

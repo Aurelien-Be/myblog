@@ -3,22 +3,36 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-16 12:52+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2022-07-27 17:07+0300\n"
+"PO-Revision-Date: 2022-07-27 16:26+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: .\blog\templates\blog\all-posts.html:8
+#, fuzzy
+#| msgid "All posts"
+msgid "All my posts"
+msgstr "Все посты"
+
+#: .\blog\templates\blog\all-posts.html:18
+msgid "My collected posts"
+msgstr "Мои собранные посты"
+
+#: .\blog\templates\blog\all-posts.html:29 .\blog\templates\blog\index.html:40
+msgid "Search an article :"
+msgstr "Найти статью:"
 
 #: .\blog\templates\blog\index.html:22
 msgid "AURELIEN'S"
@@ -32,15 +46,13 @@ msgstr "ОРЕЛЬЕНА"
 msgid ""
 "Hi, I am Aurélien and I like to blog about tech, language learning, "
 "Russia.. !"
-msgstr "Привет, я Орельен, и мне нравится вести блог о технологиях, изучении языков, России .. !"
+msgstr ""
+"Привет, я Орельен, и мне нравится вести блог о технологиях, изучении языков, "
+"России .. !"
 
 #: .\blog\templates\blog\index.html:30
 msgid "My Latest Thoughts"
 msgstr "Мои последние размышления"
-
-#: .\blog\templates\blog\index.html:40
-msgid "Search an article :"
-msgstr "Найти статью:"
 
 #: .\blog\templates\blog\index.html:48
 msgid "What I Do"
@@ -50,15 +62,17 @@ msgstr "Чем занимаюсь я"
 msgid ""
 "I love programming, I enjoy exploring new technologies, and learn languages "
 "(mainly russian language, but also italian)."
-msgstr "Я люблю программировать, мне нравится исследовать новые технологии и изучать языки (в основном русский, но также и итальянский)"
+msgstr ""
+"Я люблю программировать, мне нравится исследовать новые технологии и изучать "
+"языки (в основном русский, но также и итальянский)"
 
 #: .\blog\templates\blog\index.html:50
 msgid "My goal is to keep learning as a developer and share my experience"
-msgstr "Моя цель - продолжать учиться как разработчик и делиться своим опытом."
+msgstr "Моя цель - продолжать учиться как разработчик и делиться своим опытом"
 
 #: .\blog\templates\blog\index.html:51
 msgid "Contact me (first website)"
-msgstr "свяжи́сь со мной (первый веб-сайт)"
+msgstr "Свяжи́сь со мной (первый веб-сайт)"
 
 #: .\blog\templates\blog\index.html:52
 msgid "Follow me"
@@ -68,6 +82,63 @@ msgstr "Следуй за мной"
 msgid "Technologies I used"
 msgstr "Технологии, которые я использовал"
 
-#: .\templates\base.html:17
+#: .\blog\templates\blog\searcharticle.html:7
+msgid "Search"
+msgstr ""
+
+#: .\blog\templates\blog\searcharticle.html:18
+msgid "Here is what we found :"
+msgstr ""
+
+#: .\blog\templates\blog\searcharticle.html:26
+msgid "Nothing found ! Try another search."
+msgstr ""
+
+#: .\blog\templates\blog\stored-posts.html:6
+#, fuzzy
+#| msgid "Stored posts"
+msgid "My stored post"
+msgstr "Сохраненные сообщения"
+
+#: .\blog\templates\blog\stored-posts.html:17
+msgid "You don't have any saved post"
+msgstr ""
+
+#: .\my_site\settings.py:119
+msgid "English"
+msgstr ""
+
+#: .\my_site\settings.py:120
+msgid "French"
+msgstr ""
+
+#: .\my_site\settings.py:121
+msgid "Russian"
+msgstr ""
+
+#: .\my_site\settings.py:122
+msgid "italian"
+msgstr ""
+
+#: .\templates\404.html:8
+msgid "We're sorry, "
+msgstr ""
+
+#: .\templates\404.html:9
+msgid "but we couldn't find that page."
+msgstr ""
+
+#: .\templates\base.html:17 .\templates\base.html:33
 msgid "Aurélien's Blog"
 msgstr "Блог Орельена"
+
+#: .\templates\base.html:35
+msgid "Stored posts"
+msgstr "Сохраненные сообщения"
+
+#: .\templates\base.html:36
+msgid "All posts"
+msgstr "Все посты"
+
+#~ msgid "All My Posts"
+#~ msgstr "Все мои сообщения"

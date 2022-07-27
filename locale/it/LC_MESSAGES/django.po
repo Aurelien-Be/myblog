@@ -3,20 +3,32 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-16 12:52+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2022-07-27 17:07+0300\n"
+"PO-Revision-Date: 2022-07-27 14:52+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: .\blog\templates\blog\all-posts.html:8
+msgid "All my posts"
+msgstr ""
+
+#: .\blog\templates\blog\all-posts.html:18
+msgid "My collected posts"
+msgstr ""
+
+#: .\blog\templates\blog\all-posts.html:29 .\blog\templates\blog\index.html:40
+msgid "Search an article :"
+msgstr "Cercare un articolo: "
 
 #: .\blog\templates\blog\index.html:22
 msgid "AURELIEN'S"
@@ -30,14 +42,10 @@ msgstr ""
 msgid ""
 "Hi, I am Aurélien and I like to blog about tech, language learning, "
 "Russia.. !"
-msgstr ""
+msgstr "Sono Aurélien"
 
 #: .\blog\templates\blog\index.html:30
 msgid "My Latest Thoughts"
-msgstr ""
-
-#: .\blog\templates\blog\index.html:40
-msgid "Search an article :"
 msgstr ""
 
 #: .\blog\templates\blog\index.html:48
@@ -66,6 +74,58 @@ msgstr ""
 msgid "Technologies I used"
 msgstr ""
 
-#: .\templates\base.html:17
+#: .\blog\templates\blog\searcharticle.html:7
+msgid "Search"
+msgstr ""
+
+#: .\blog\templates\blog\searcharticle.html:18
+msgid "Here is what we found :"
+msgstr ""
+
+#: .\blog\templates\blog\searcharticle.html:26
+msgid "Nothing found ! Try another search."
+msgstr ""
+
+#: .\blog\templates\blog\stored-posts.html:6
+msgid "My stored post"
+msgstr ""
+
+#: .\blog\templates\blog\stored-posts.html:17
+msgid "You don't have any saved post"
+msgstr ""
+
+#: .\my_site\settings.py:119
+msgid "English"
+msgstr ""
+
+#: .\my_site\settings.py:120
+msgid "French"
+msgstr ""
+
+#: .\my_site\settings.py:121
+msgid "Russian"
+msgstr ""
+
+#: .\my_site\settings.py:122
+msgid "italian"
+msgstr ""
+
+#: .\templates\404.html:8
+msgid "We're sorry, "
+msgstr ""
+
+#: .\templates\404.html:9
+msgid "but we couldn't find that page."
+msgstr ""
+
+#: .\templates\base.html:17 .\templates\base.html:33
 msgid "Aurélien's Blog"
+msgstr ""
+
+#: .\templates\base.html:35
+msgid "Stored posts"
+msgstr ""
+
+#: .\templates\base.html:36
+msgid "All posts"
 msgstr ""
