@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 17:07+0300\n"
-"PO-Revision-Date: 2022-07-27 16:26+0300\n"
+"PO-Revision-Date: 2022-07-29 13:29+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -21,8 +21,6 @@ msgstr ""
 "X-Generator: Poedit 3.1.1\n"
 
 #: .\blog\templates\blog\all-posts.html:8
-#, fuzzy
-#| msgid "All posts"
 msgid "All my posts"
 msgstr "Все посты"
 
@@ -76,7 +74,7 @@ msgstr "Свяжи́сь со мной (первый веб-сайт)"
 
 #: .\blog\templates\blog\index.html:52
 msgid "Follow me"
-msgstr "Следуй за мной"
+msgstr "Oтслеживать"
 
 #: .\blog\templates\blog\index.html:59
 msgid "Technologies I used"
@@ -84,25 +82,23 @@ msgstr "Технологии, которые я использовал"
 
 #: .\blog\templates\blog\searcharticle.html:7
 msgid "Search"
-msgstr ""
+msgstr "Поиск"
 
 #: .\blog\templates\blog\searcharticle.html:18
 msgid "Here is what we found :"
-msgstr ""
+msgstr "Вот что мы нашли:"
 
 #: .\blog\templates\blog\searcharticle.html:26
 msgid "Nothing found ! Try another search."
-msgstr ""
+msgstr "Ничего не найдено! Попробуйте другой поиск."
 
 #: .\blog\templates\blog\stored-posts.html:6
-#, fuzzy
-#| msgid "Stored posts"
 msgid "My stored post"
-msgstr "Сохраненные сообщения"
+msgstr "Мой сохраненный посты"
 
 #: .\blog\templates\blog\stored-posts.html:17
 msgid "You don't have any saved post"
-msgstr ""
+msgstr "У вас нет ни одного сохраненного поста"
 
 #: .\my_site\settings.py:119
 msgid "English"
@@ -122,11 +118,11 @@ msgstr ""
 
 #: .\templates\404.html:8
 msgid "We're sorry, "
-msgstr ""
+msgstr "Мы сожалеем, "
 
 #: .\templates\404.html:9
 msgid "but we couldn't find that page."
-msgstr ""
+msgstr "но мы не смогли найти эту страницу."
 
 #: .\templates\base.html:17 .\templates\base.html:33
 msgid "Aurélien's Blog"
@@ -134,7 +130,7 @@ msgstr "Блог Орельена"
 
 #: .\templates\base.html:35
 msgid "Stored posts"
-msgstr "Сохраненные сообщения"
+msgstr "Сохраненные посты"
 
 #: .\templates\base.html:36
 msgid "All posts"

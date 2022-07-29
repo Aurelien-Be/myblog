@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 17:07+0300\n"
-"PO-Revision-Date: 2022-07-27 14:52+0300\n"
+"PO-Revision-Date: 2022-07-29 13:28+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: it\n"
@@ -20,79 +20,86 @@ msgstr ""
 
 #: .\blog\templates\blog\all-posts.html:8
 msgid "All my posts"
-msgstr ""
+msgstr "Tutti i miei post"
 
 #: .\blog\templates\blog\all-posts.html:18
 msgid "My collected posts"
-msgstr ""
+msgstr "I miei post raccolti"
 
 #: .\blog\templates\blog\all-posts.html:29 .\blog\templates\blog\index.html:40
 msgid "Search an article :"
-msgstr "Cercare un articolo: "
+msgstr "Cercare un articolo:"
 
 #: .\blog\templates\blog\index.html:22
 msgid "AURELIEN'S"
-msgstr ""
+msgstr "IL BLOG"
 
 #: .\blog\templates\blog\index.html:23
 msgid "BLOG"
-msgstr ""
+msgstr "DI AURELIEN"
 
 #: .\blog\templates\blog\index.html:26
 msgid ""
 "Hi, I am Aurélien and I like to blog about tech, language learning, "
 "Russia.. !"
-msgstr "Sono Aurélien"
+msgstr ""
+"Ciao, sono Aurélien e mi piace blog su tecnologia, apprendimento delle "
+"lingue, Russia.. !"
 
 #: .\blog\templates\blog\index.html:30
 msgid "My Latest Thoughts"
-msgstr ""
+msgstr "I miei ultimi pensieri"
 
 #: .\blog\templates\blog\index.html:48
 msgid "What I Do"
-msgstr ""
+msgstr "Cosa faccio"
 
 #: .\blog\templates\blog\index.html:49
 msgid ""
 "I love programming, I enjoy exploring new technologies, and learn languages "
 "(mainly russian language, but also italian)."
 msgstr ""
+"Amo la programmazione, mi piace esplorare nuove tecnologie e imparare le "
+"lingue (principalmente la lingua russa, ma anche l'italiano o anche il "
+"latino)"
 
 #: .\blog\templates\blog\index.html:50
 msgid "My goal is to keep learning as a developer and share my experience"
 msgstr ""
+"Il mio obiettivo è continuare ad imparare come sviluppatore e condividere "
+"la mia esperienza"
 
 #: .\blog\templates\blog\index.html:51
 msgid "Contact me (first website)"
-msgstr ""
+msgstr "Contattami (primo sito web)"
 
 #: .\blog\templates\blog\index.html:52
 msgid "Follow me"
-msgstr ""
+msgstr "Seguitemi"
 
 #: .\blog\templates\blog\index.html:59
 msgid "Technologies I used"
-msgstr ""
+msgstr "Tecnologie che ho usato"
 
 #: .\blog\templates\blog\searcharticle.html:7
 msgid "Search"
-msgstr ""
+msgstr "Ricerca"
 
 #: .\blog\templates\blog\searcharticle.html:18
 msgid "Here is what we found :"
-msgstr ""
+msgstr "Ecco cosa ho trovato:"
 
 #: .\blog\templates\blog\searcharticle.html:26
 msgid "Nothing found ! Try another search."
-msgstr ""
+msgstr "Niente trovato! Prova un'altra ricerca."
 
 #: .\blog\templates\blog\stored-posts.html:6
 msgid "My stored post"
-msgstr ""
+msgstr "I miei post conservati"
 
 #: .\blog\templates\blog\stored-posts.html:17
 msgid "You don't have any saved post"
-msgstr ""
+msgstr "Non hai nessun post salvato"
 
 #: .\my_site\settings.py:119
 msgid "English"
@@ -112,20 +119,20 @@ msgstr ""
 
 #: .\templates\404.html:8
 msgid "We're sorry, "
-msgstr ""
+msgstr "Ci dispiace, "
 
 #: .\templates\404.html:9
 msgid "but we couldn't find that page."
-msgstr ""
+msgstr "ma non abbiamo trovato la pagina."
 
 #: .\templates\base.html:17 .\templates\base.html:33
 msgid "Aurélien's Blog"
-msgstr ""
+msgstr "Il blog di Aurelien"
 
 #: .\templates\base.html:35
 msgid "Stored posts"
-msgstr ""
+msgstr "Posti conservati"
 
 #: .\templates\base.html:36
 msgid "All posts"
-msgstr ""
+msgstr "Tutti i post"
