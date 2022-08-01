@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 17:07+0300\n"
-"PO-Revision-Date: 2022-07-29 13:29+0300\n"
+"POT-Creation-Date: 2022-08-01 17:16+0300\n"
+"PO-Revision-Date: 2022-08-01 17:29+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -18,7 +18,23 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 2.0.7\n"
+
+#: .\blog\forms.py:11
+msgid "Your Name"
+msgstr "Твое имя"
+
+#: .\blog\forms.py:12
+msgid "Your Email"
+msgstr "Твой адрес электронной почты"
+
+#: .\blog\forms.py:13
+msgid "Your Comment"
+msgstr "Твой комментарий"
+
+#: .\blog\forms.py:17
+msgid "Enter your comment here (you can use bbcode)"
+msgstr "Напиши свой комментарий здесь (ты можешь использовать bbcode)"
 
 #: .\blog\templates\blog\all-posts.html:8
 msgid "All my posts"
@@ -79,6 +95,42 @@ msgstr "Oтслеживать"
 #: .\blog\templates\blog\index.html:59
 msgid "Technologies I used"
 msgstr "Технологии, которые я использовал"
+
+#: .\blog\templates\blog\post-detail.html:19
+msgid "Saving the comment failed."
+msgstr "Сохранение комментария не удалось"
+
+#: .\blog\templates\blog\post-detail.html:20
+msgid "Please check the comment form below the post and fix your errors."
+msgstr "Пожалуйста, проверь форму выше и исправь,"
+
+#: .\blog\templates\blog\post-detail.html:21
+msgid "Fix!"
+msgstr "Хорошо !"
+
+#: .\blog\templates\blog\post-detail.html:40
+msgid "Remove from Read Later List"
+msgstr "Удалить из списка \"Прочитать позже\"\""
+
+#: .\blog\templates\blog\post-detail.html:42
+msgid "Read later"
+msgstr "Прочитать позже"
+
+#: .\blog\templates\blog\post-detail.html:49
+msgid "By"
+msgstr "Из"
+
+#: .\blog\templates\blog\post-detail.html:51
+msgid "Last updated on"
+msgstr "Последнее обновление на"
+
+#: .\blog\templates\blog\post-detail.html:72
+msgid "Your comment"
+msgstr "Твой комментарий"
+
+#: .\blog\templates\blog\post-detail.html:82
+msgid "Publish comment"
+msgstr "Опубликовать"
 
 #: .\blog\templates\blog\searcharticle.html:7
 msgid "Search"

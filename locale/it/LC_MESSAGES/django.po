@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 17:07+0300\n"
-"PO-Revision-Date: 2022-07-29 13:28+0300\n"
+"POT-Creation-Date: 2022-08-01 17:16+0300\n"
+"PO-Revision-Date: 2022-08-01 17:17+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: it\n"
@@ -16,7 +16,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 2.0.7\n"
+
+#: .\blog\forms.py:11
+msgid "Your Name"
+msgstr "Il tuo nome"
+
+#: .\blog\forms.py:12
+msgid "Your Email"
+msgstr "Il tuo email"
+
+#: .\blog\forms.py:13
+#, fuzzy
+#| msgid "Your comment"
+msgid "Your Comment"
+msgstr "Il tuo commento"
+
+#: .\blog\forms.py:17
+msgid "Enter your comment here (you can use bbcode)"
+msgstr "Inserisci qui il tuo commento (puoi usare il bbcode)"
 
 #: .\blog\templates\blog\all-posts.html:8
 msgid "All my posts"
@@ -66,8 +84,8 @@ msgstr ""
 #: .\blog\templates\blog\index.html:50
 msgid "My goal is to keep learning as a developer and share my experience"
 msgstr ""
-"Il mio obiettivo è continuare ad imparare come sviluppatore e condividere "
-"la mia esperienza"
+"Il mio obiettivo è continuare ad imparare come sviluppatore e condividere la "
+"mia esperienza"
 
 #: .\blog\templates\blog\index.html:51
 msgid "Contact me (first website)"
@@ -80,6 +98,44 @@ msgstr "Seguitemi"
 #: .\blog\templates\blog\index.html:59
 msgid "Technologies I used"
 msgstr "Tecnologie che ho usato"
+
+#: .\blog\templates\blog\post-detail.html:19
+msgid "Saving the comment failed."
+msgstr "Salvataggio del commento non riuscito."
+
+#: .\blog\templates\blog\post-detail.html:20
+msgid "Please check the comment form below the post and fix your errors."
+msgstr ""
+"Si prega di controllare il modulo di commento sotto il post e correggere gli "
+"errori."
+
+#: .\blog\templates\blog\post-detail.html:21
+msgid "Fix!"
+msgstr "E fatto !"
+
+#: .\blog\templates\blog\post-detail.html:40
+msgid "Remove from Read Later List"
+msgstr "Rimuovere della lista da leggere"
+
+#: .\blog\templates\blog\post-detail.html:42
+msgid "Read later"
+msgstr "Da leggere"
+
+#: .\blog\templates\blog\post-detail.html:49
+msgid "By"
+msgstr "Da"
+
+#: .\blog\templates\blog\post-detail.html:51
+msgid "Last updated on"
+msgstr "Ultimo aggiornamento il"
+
+#: .\blog\templates\blog\post-detail.html:72
+msgid "Your comment"
+msgstr "Il tuo commento"
+
+#: .\blog\templates\blog\post-detail.html:82
+msgid "Publish comment"
+msgstr "Pubblicare il commento"
 
 #: .\blog\templates\blog\searcharticle.html:7
 msgid "Search"
