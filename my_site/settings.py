@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'precise_bbcode'
-    'rosetta'
 ]
 
 MIDDLEWARE = [
@@ -81,24 +80,12 @@ WSGI_APPLICATION = 'my_site.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': 'mydatabase',
-#    }
-#}
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'AurelienB',
-        'PASSWORD': 'MoUcheAWS06+',
-        'HOST': 'django-blog-db.cobdjnqpkyst.eu-north-1.rds.amazonaws.com',
-        'PORT': '5432'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
     }
 }
-
 
 
 # Password validation
@@ -131,7 +118,7 @@ LANGUAGES = (
 )
 
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru' #'en-us'
 
 TIME_ZONE = 'UTC'
 
