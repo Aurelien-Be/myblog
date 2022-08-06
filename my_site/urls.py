@@ -21,17 +21,20 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", include("blog.urls")) ]
-    #"" is the leading path segment 
-    #in the second agument the blog urls, blog is the app and folder name, urls the file
-    #we let the first string empty in order to access to the blog without adding
-    # /blog in the navigator 
-    
-#interface Rosetta to edit translations easyli like from the admin interface throut website.com/rosetta
+]
+
+#we include all the urls of the app blog, and we add the prefix language
+urlpatterns += i18n_patterns (
+    path("", include("blog.urls"))
+)
+
+#to edit the translations in an admin-like module
 if 'rosetta' in settings.INSTALLED_APPS:
     urlpatterns += [
         re_path(r'^rosetta/', include('rosetta.urls'))
     ]
+
+
 
 #to access to images uploaded   :
 #  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) \
