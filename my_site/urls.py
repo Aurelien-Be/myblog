@@ -14,18 +14,25 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path, include, re_path
 #with include imported, we can register another path coming from our app blog 
 from django.conf.urls.static import static
 from django.conf import settings
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", include("blog.urls"))
+    path("", include("blog.urls")) ]
     #"" is the leading path segment 
     #in the second agument the blog urls, blog is the app and folder name, urls the file
-    #we let the first string empty in order to access to the blog without adding /blog in the navigator 
+    #we let the first string empty in order to access to the blog without adding
+    # /blog in the navigator 
+    
+#interface Rosetta to edit translations easyli like from the admin interface throut website.com/rosetta
+if 'rosetta' in settings.INSTALLED_APPS:
+    urlpatterns += [
+        re_path(r'^rosetta/', include('rosetta.urls'))
+    ]
 
 #to access to images uploaded   :
-] 
 #  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) \
 #  + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
