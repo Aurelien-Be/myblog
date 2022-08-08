@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'precise_bbcode',
-    'rosetta'
+    'rosetta',
+    'parler'
 ]
 
 MIDDLEWARE = [
