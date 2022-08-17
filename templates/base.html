@@ -22,6 +22,8 @@
     <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="{% static "base.css" %}">
     <link rel="shortcut icon" href="{%  static 'favicon.ico' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-select.min.css' %}" media="all">
+    <script type="text/javascript" src="{% static 'js/bootstrap-select.min.js' %}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data-10-year-range.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data-10-year-range.js"></script>
  
@@ -34,24 +36,27 @@
         <nav class="menu">
            <a href="{% url "read-later" %}">{% trans "Stored posts" %}</a>
            <a href="{% url "posts-page" %}">{% trans "All posts" %}</a>
-           {% get_current_language as CURRENT_LANGUAGE %}
-           {% get_available_languages as AVAILABLE_LANGUAGES %}
-           {% get_language_info_list for AVAILABLE_LANGUAGES as languages %}
-           <div class="languages">
-             <p>{% trans "Language" %}:</p>
-             <ul class="languages">
-               {% for language in languages %}
-                 <li>
-                   <a href="/{{ language.code }}/"
-                     {% if language.code == CURRENT_LANGUAGE %} class="active"{% endif %}>
-                     {{ language.name_local }}
-                   </a>
-                 </li>
-               {% endfor %}
-             </ul>
-     
           <!--we use the name of the url that we added in url.py-->
-         </nav>
+          {% get_current_language as CURRENT_LANGUAGE %}
+          {% get_available_languages as AVAILABLE_LANGUAGES %}
+          {% get_language_info_list for AVAILABLE_LANGUAGES as languages %}
+          <button aria-expanded="false">{%trans "Language"%}
+              <div>
+                  <ul>
+                    {% for language in languages %}
+                      <li>
+                        <a href="/{{ language.code }}/"
+                          {% if language.code == CURRENT_LANGUAGE %} class="active"{% endif %}>
+                          {{ language.name_local }}
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+            </button>
+    
+        
+        </nav> 
 
       </header>
 
