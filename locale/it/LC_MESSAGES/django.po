@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 17:16+0300\n"
-"PO-Revision-Date: 2022-08-01 17:17+0300\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2022-08-24 16:23+0200\n"
+"PO-Revision-Date: 2022-08-24 16:26+0000\n"
+"Last-Translator:   <abeveraggi@netcourrier.com>\n"
 "Language-Team: \n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.0.7\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
 
 #: .\blog\forms.py:11
 msgid "Your Name"
@@ -58,8 +59,8 @@ msgstr "DI AURELIEN"
 
 #: .\blog\templates\blog\index.html:26
 msgid ""
-"Hi, I am Aurélien and I like to blog about tech, language learning, "
-"Russia.. !"
+"Hi, I am Aurélien and I like to blog about tech, language learning, Russia.."
+" !"
 msgstr ""
 "Ciao, sono Aurélien e mi piace blog su tecnologia, apprendimento delle "
 "lingue, Russia.. !"
@@ -84,8 +85,8 @@ msgstr ""
 #: .\blog\templates\blog\index.html:50
 msgid "My goal is to keep learning as a developer and share my experience"
 msgstr ""
-"Il mio obiettivo è continuare ad imparare come sviluppatore e condividere la "
-"mia esperienza"
+"Il mio obiettivo è continuare ad imparare come sviluppatore e condividere la"
+" mia esperienza"
 
 #: .\blog\templates\blog\index.html:51
 msgid "Contact me (first website)"
@@ -106,8 +107,8 @@ msgstr "Salvataggio del commento non riuscito."
 #: .\blog\templates\blog\post-detail.html:20
 msgid "Please check the comment form below the post and fix your errors."
 msgstr ""
-"Si prega di controllare il modulo di commento sotto il post e correggere gli "
-"errori."
+"Si prega di controllare il modulo di commento sotto il post e correggere gli"
+" errori."
 
 #: .\blog\templates\blog\post-detail.html:21
 msgid "Fix!"
@@ -157,21 +158,21 @@ msgstr "I miei post conservati"
 msgid "You don't have any saved post"
 msgstr "Non hai nessun post salvato"
 
-#: .\my_site\settings.py:119
+#: .\my_site\settings.py:123
 msgid "English"
-msgstr ""
+msgstr " Inglese"
 
-#: .\my_site\settings.py:120
+#: .\my_site\settings.py:124
 msgid "French"
-msgstr ""
+msgstr "Francese"
 
-#: .\my_site\settings.py:121
+#: .\my_site\settings.py:125
 msgid "Russian"
-msgstr ""
+msgstr "Russo"
 
-#: .\my_site\settings.py:122
+#: .\my_site\settings.py:126
 msgid "italian"
-msgstr ""
+msgstr "Italiano"
 
 #: .\templates\404.html:8
 msgid "We're sorry, "
@@ -181,14 +182,18 @@ msgstr "Ci dispiace, "
 msgid "but we couldn't find that page."
 msgstr "ma non abbiamo trovato la pagina."
 
-#: .\templates\base.html:17 .\templates\base.html:33
+#: .\templates\base.html:17 .\templates\base.html:35
 msgid "Aurélien's Blog"
 msgstr "Il blog di Aurelien"
 
-#: .\templates\base.html:35
+#: .\templates\base.html:37
 msgid "Stored posts"
 msgstr "Posti conservati"
 
-#: .\templates\base.html:36
+#: .\templates\base.html:38
 msgid "All posts"
 msgstr "Tutti i post"
+
+#: .\templates\base.html:43
+msgid "Language"
+msgstr "Lingua"

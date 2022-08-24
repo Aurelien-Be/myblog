@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 17:16+0300\n"
-"PO-Revision-Date: 2022-08-01 17:20+0300\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2022-08-24 16:23+0200\n"
+"PO-Revision-Date: 2022-08-24 16:24+0000\n"
+"Last-Translator:   <abeveraggi@netcourrier.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 2.0.7\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
 
 #: .\blog\forms.py:11
 msgid "Your Name"
@@ -56,8 +57,8 @@ msgstr "D'AURELIEN"
 
 #: .\blog\templates\blog\index.html:26
 msgid ""
-"Hi, I am Aurélien and I like to blog about tech, language learning, "
-"Russia.. !"
+"Hi, I am Aurélien and I like to blog about tech, language learning, Russia.."
+" !"
 msgstr ""
 "Salut, je m'appelle Aurélien et je blogue à propos de tech, d'apprentissage "
 "de langues,de la Russie.. !"
@@ -152,21 +153,21 @@ msgstr "Mes posts sauvegardés"
 msgid "You don't have any saved post"
 msgstr "Vous n'avez aucun post"
 
-#: .\my_site\settings.py:119
+#: .\my_site\settings.py:123
 msgid "English"
-msgstr ""
+msgstr "Anglais"
 
-#: .\my_site\settings.py:120
+#: .\my_site\settings.py:124
 msgid "French"
-msgstr ""
+msgstr "Français"
 
-#: .\my_site\settings.py:121
+#: .\my_site\settings.py:125
 msgid "Russian"
-msgstr ""
+msgstr "Russe"
 
-#: .\my_site\settings.py:122
+#: .\my_site\settings.py:126
 msgid "italian"
-msgstr ""
+msgstr "Italien"
 
 #: .\templates\404.html:8
 msgid "We're sorry, "
@@ -176,14 +177,18 @@ msgstr "Nous sommes désolés, "
 msgid "but we couldn't find that page."
 msgstr "mais nous n'avons pas pu trouver cette page."
 
-#: .\templates\base.html:17 .\templates\base.html:33
+#: .\templates\base.html:17 .\templates\base.html:35
 msgid "Aurélien's Blog"
 msgstr "Le blog d'Aurélien"
 
-#: .\templates\base.html:35
+#: .\templates\base.html:37
 msgid "Stored posts"
 msgstr "Posts sauvegardés"
 
-#: .\templates\base.html:36
+#: .\templates\base.html:38
 msgid "All posts"
 msgstr "Tous les posts"
+
+#: .\templates\base.html:43
+msgid "Language"
+msgstr "Langue"
