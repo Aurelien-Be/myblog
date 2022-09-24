@@ -33,6 +33,7 @@ ALLOWED_HOSTS = [
 INSTALLED_APPS = [
     'blog',
     'storages',
+    'modeltranslation',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,8 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'precise_bbcode',
-    'rosetta',
-    'parler'
+    'rosetta'
 ]
 
 MIDDLEWARE = [
