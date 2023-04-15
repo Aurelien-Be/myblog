@@ -6,6 +6,8 @@ class TagTranslationOptions(TranslationOptions):
 
 class PostTranslationOptions(TranslationOptions):
     fields=("title", 'excerpt','slug', 'content', 'tags')
+     empty_values = {'slug': None}
+
 
 translator.register(Post, PostTranslationOptions)
 translator.register(Tag, TagTranslationOptions)
